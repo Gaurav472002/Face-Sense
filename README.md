@@ -16,3 +16,13 @@ This is a Python-based facial recognition attendance system created  using the O
  6. The facial encodings are compared with the known_face_encodings to recognize the known individuals.
  7. If a recognized face matches one of the known faces, the attendance for that student is marked and their name is displayed on the frame.
  8. The script also logs the name of the recognized student and the timestamp in a CSV file named according to the current date.
+
+**CSV File Format**
+
+  1. The attendance data is stored in CSV format in a file named with the current date (e.g., 2023-08-02.csv).
+  2. The file has two columns: "Name" and "Time." The "Name" column contains the names of the students whose attendance is marked, and the "Time" column contains the timestamp when the attendance was marked.
+
+**Note**
+  1. The project is designed for demonstration and educational purposes and may require further improvements for real-world applications.
+  2. Make sure to have proper lighting and a clear view of the faces for better face recognition performance.
+  3. Feel free to contribute to this project by creating pull requests or raising issues.
