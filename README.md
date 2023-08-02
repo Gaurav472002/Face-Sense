@@ -1,2 +1,3 @@
 # Face-Sense
-Attendance System Using Real Time Facial Recognition
+forthebadge made-with-python
+Python 3.6
