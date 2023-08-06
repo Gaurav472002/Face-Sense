@@ -22,7 +22,25 @@ This is a Python-based facial recognition attendance system created  using the O
   1. The attendance data is stored in CSV format in a file named with the current date (e.g., 2023-08-02.csv).
   2. The file has two columns: "Name" and "Time." The "Name" column contains the names of the students whose attendance is marked, and the "Time" column contains the timestamp when the attendance was marked.
 
+
+**Project Demo**
+
+Whenever a valid student is recognized the student is present message is displayed ensuring that the attendance is marked
+![image](https://github.com/Gaurav472002/Face-Sense/assets/97028366/435c6acb-f3da-4949-b3f1-1ac61656effb)
+
+The attendance is stored in the following format
+
+![image](https://github.com/Gaurav472002/Face-Sense/assets/97028366/6d84b16b-a6de-412e-a3e6-2ad1da89bccd)
+
+The .csv file is saved using the present date so that the user can keep track of the attendance for different days accordingly.
+
+![image](https://github.com/Gaurav472002/Face-Sense/assets/97028366/6e94f625-220c-4745-9724-bb7b98fa83b8)
+
+
 **Note**
   1. The project is designed for demonstration and educational purposes and may require further improvements for real-world applications.
   2. Make sure to have proper lighting and a clear view of the faces for better face recognition performance.
   3. Feel free to contribute to this project by creating pull requests or raising issues.
+
+
+
