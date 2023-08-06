@@ -10,16 +10,15 @@ from datetime import datetime
 video_capture = cv2.VideoCapture(0)
 
 # load known faces , extracts facial features and creates a numerical representation (encoding) of each face.
-gaurav_image = face_recognition.load_image_file("faces/gaurav.jpg")
+gaurav_image = face_recognition.load_image_file("faces/student1.jpg")
 gaurav_encoding = face_recognition.face_encodings(gaurav_image)[0]
 
-pooja_image = face_recognition.load_image_file("faces/pooja.png")
-pooja_encoding = face_recognition.face_encodings(pooja_image)[0]
+
 
 # store the obtained encodings in known_face_encodings list 
-known_face_encodings = [gaurav_encoding, pooja_encoding]
+known_face_encodings = [gaurav_encoding]
 # store the expected student names in the known_face_names list
-known_face_names = ["Gaurav", "Pooja"]
+known_face_names = ["student1" ]
 
 
 # List of Expected Students which will be used to track the expected students and mark their attendance
