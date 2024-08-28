@@ -8,13 +8,16 @@ This project is a Facial Recognition Attendance System built using OpenCV, Face 
 4. Cloud Storage: Saves student images and attendance records in Firebase Storage.
 5. User-Friendly Interface: Displays real-time attendance and student details on a custom UI background.
 
-**WorkFlow Diagram**
+# WorkFlow Diagram
+
 ![image](https://github.com/user-attachments/assets/7005a0ba-7a31-4c58-bb9c-34cc103a499a)
 
-**User Interface**
+# User Interface
+
 ![image](https://github.com/user-attachments/assets/99e323eb-b1fa-403b-ab62-c6e737863e2a)
 
-**Dataset**
+# Dataset
+
 ![image](https://github.com/user-attachments/assets/b3493826-dae4-42b1-8c61-1ae52e003369)
 
 
