@@ -2,17 +2,17 @@
 This project is a Facial Recognition Attendance System built using OpenCV, Face Recognition, and Firebase. It captures real-time video from a webcam, identifies students using their facial features, and records attendance automatically. The system leverages advanced facial recognition techniques with a Histogram of Oriented Gradients (HOG) for feature extraction and is integrated with Firebase for storing student data and attendance logs.
 
 **Features**
-1. Real-Time Face Recognition: Identifies and matches faces in real-time using a webcam.
+1. Real-Time Face Recognition: Identifies and matches faces in real time using a webcam.
 2. Student Database Integration: Stores and retrieves student information from Firebase Realtime Database.
 3. Attendance Logging: Automatically records attendance based on facial recognition.
 4. Cloud Storage: Saves student images and attendance records in Firebase Storage.
 5. User-Friendly Interface: Displays real-time attendance and student details on a custom UI background.
 
 **Technologies Used**
-**OpenCV:** For video capture and image processing.
-**Face Recognition Library:** For facial feature detection and matching.
-**Firebase:** For real-time database and cloud storage.
-**Python:** Core programming language used for implementing the system
+1. OpenCV: For video capture and image processing.
+2. Face Recognition Library: For facial feature detection and matching.
+3. Firebase: For real-time database and cloud storage.
+4. Python: Core programming language used for implementing the system
 
 **CSV File Format**
 
