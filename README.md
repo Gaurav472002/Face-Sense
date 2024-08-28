@@ -8,16 +8,21 @@ This project is a Facial Recognition Attendance System built using OpenCV, Face 
 4. Cloud Storage: Saves student images and attendance records in Firebase Storage.
 5. User-Friendly Interface: Displays real-time attendance and student details on a custom UI background.
 
+**WorkFlow Diagram**
+![image](https://github.com/user-attachments/assets/7005a0ba-7a31-4c58-bb9c-34cc103a499a)
+
+**User Interface**
+![image](https://github.com/user-attachments/assets/99e323eb-b1fa-403b-ab62-c6e737863e2a)
+
+**Dataset**
+![image](https://github.com/user-attachments/assets/b3493826-dae4-42b1-8c61-1ae52e003369)
+
+
 **Technologies Used**
 1. OpenCV: For video capture and image processing.
 2. Face Recognition Library: For facial feature detection and matching.
 3. Firebase: For real-time database and cloud storage.
 4. Python: Core programming language used for implementing the system
-
-**CSV File Format**
-
-  1. The attendance data is stored in CSV format in a file named with the current date (e.g., 2023-08-02.csv).
-  2. The file has two columns: "Name" and "Time." The "Name" column contains the names of the students whose attendance is marked, and the "Time" column contains the timestamp when the attendance was marked.
 
 
 **Setup and Installation**
